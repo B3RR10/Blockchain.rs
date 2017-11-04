@@ -62,6 +62,7 @@ fn hashPubKey() {}
 
 fn checksum() {}
 
+struct UTXOSet {}
 
 impl UTXOSet {
     fn reindex() {}
