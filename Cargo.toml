@@ -1,7 +1,11 @@
 [package]
 name = "blockchain"
 version = "0.1.0"
-authors = ["dvogt23 <divogt@live.de>"]
+authors = ["Miguel Berrio <miguelberrio91@gmail.com>, Dimitrij Vogt <divogt@live.de>"]
+
+[[bin]]
+name = "blockchain"
+path = "src/main.rs"
 
 [dependencies]
 ring = "*"
