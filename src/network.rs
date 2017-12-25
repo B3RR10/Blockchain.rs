@@ -1,33 +1,33 @@
 struct Version {}
 
-fn startServer() {}
+fn start_server() {}
 
-fn sendVersion() {}
+fn send_version() {}
 
-fn commandToBytes() {}
+fn command_to_bytes() {}
 
-fn bytesToCommand() {}
+fn bytes_to_command() {}
 
-fn handleConnection() {}
+fn handle_connection() {}
 
-fn handleVersion() {}
+fn handle_version() {}
 
-struct getblocks {}
+struct GetBlocks {}
 
-fn handleGetBlocks() {}
+fn handle_get_blocks() {}
 
-struct inv {}
+struct Inv {}
 
-fn handleInv() {}
+fn handle_inv() {}
 
-struct getdata {}
+struct Getdata {}
 
-fn handleGetData() {}
+fn handle_get_data() {}
 
-struct block {}
+struct Block {}
 
-fn handleBlock() {}
+fn handle_block() {}
 
-struct tx {}
+struct Tx {}
 
-fn handleTx() {}
+fn handle_tx() {}

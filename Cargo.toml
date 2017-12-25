@@ -8,4 +8,5 @@ name = "blockchain"
 path = "src/main.rs"
 
 [dependencies]
-ring = "*"
+ring = "0.12.0"
+chrono = "0.4"
